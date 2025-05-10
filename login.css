@@ -1,0 +1,50 @@
+ body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .login-card {
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 40px 30px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-card h3 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: 600;
+    }
+
+    .form-control {
+      border-radius: 10px;
+    }
+
+    .btn-custom {
+      background-color: #a6c1ee;
+      border: none;
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #89acee;
+    }
+
+    .text-muted a {
+      color: #a6c1ee;
+      text-decoration: none;
+    }
+
+    .text-muted a:hover {
+      text-decoration: underline;
+    }
